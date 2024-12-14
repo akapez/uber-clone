@@ -8,7 +8,7 @@ import CustomButton from "@/components/custom-button";
 
 const OnBoarding = () => {
   const swiperRef = useRef<Swiper>(null);
-  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const isLastSlide = activeIndex === onboarding.length - 1;
 
